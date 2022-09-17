@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-16T18:46:29 IST" name="Default suite" finished-at="2022-09-16T18:50:53 IST" duration-ms="264040">
+    <groups>
+    </groups>
+    <test started-at="2022-09-16T18:46:29 IST" name="Default test" finished-at="2022-09-16T18:50:53 IST" duration-ms="264040">
+      <class name="com.myEcom.TestCases.IndexPageTest">
+        <test-method is-config="true" signature="readProp()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:46:29 IST" name="readProp" finished-at="2022-09-16T18:46:29 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readProp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:46:29 IST" name="setUp" finished-at="2022-09-16T18:47:02 IST" duration-ms="32074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ClickOnSignIn()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:47:02 IST" name="ClickOnSignIn" finished-at="2022-09-16T18:47:22 IST" duration-ms="20756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnSignIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:47:22 IST" name="tearDown" finished-at="2022-09-16T18:47:24 IST" duration-ms="1285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:47:24 IST" name="setUp" finished-at="2022-09-16T18:47:56 IST" duration-ms="32328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnEmailButtonTest()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:47:56 IST" name="clickOnEmailButtonTest" finished-at="2022-09-16T18:47:57 IST" duration-ms="531" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+Syntax error on token "package", assert expected
+com.myEcom.TestCases cannot be resolved to a type
+Syntax error on token "import", yield expected
+org.testng.Assert cannot be resolved to a variable
+Syntax error on token "import", assert expected
+org.testng.annotations.AfterMethod cannot be resolved to a variable
+Syntax error on token "import", assert expected
+org.testng.annotations.BeforeMethod cannot be resolved to a variable
+Syntax error on token "import", assert expected
+org.testng.annotations.Test cannot be resolved to a variable
+Syntax error on token "import", assert expected
+org.testng.asserts.SoftAssert cannot be resolved to a variable
+Syntax error on token "import", assert expected
+com.myEcom.Base.BaseClass cannot be resolved to a variable
+Syntax error on token "import", assert expected
+com.myEcom.Pom.IndexPagePom cannot be resolved to a variable
+Syntax error on token "import", assert expected
+com.myEcom.Pom.ProductListingPom cannot be resolved to a variable
+Syntax error on token "import", assert expected
+com.myEcom.Pom.SignInPagePom cannot be resolved to a variable
+The nested type IndexPageTest cannot hide an enclosing type
+Illegal modifier for the local class IndexPageTest; only abstract or final is permitted
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+Syntax error on token "package", assert expected
+com.myEcom.TestCases cannot be resolved to a type
+Syntax error on token "import", yield expected
+org.testng.Assert cannot be resolved to a variable
+Syntax error on token "import", assert expected
+org.testng.annotations.AfterMethod cannot be resolved to a variable
+Syntax error on token "import", assert expected
+org.testng.annotations.BeforeMethod cannot be resolved to a variable
+Syntax error on token "import", assert expected
+org.testng.annotations.Test cannot be resolved to a variable
+Syntax error on token "import", assert expected
+org.testng.asserts.SoftAssert cannot be resolved to a variable
+Syntax error on token "import", assert expected
+com.myEcom.Base.BaseClass cannot be resolved to a variable
+Syntax error on token "import", assert expected
+com.myEcom.Pom.IndexPagePom cannot be resolved to a variable
+Syntax error on token "import", assert expected
+com.myEcom.Pom.ProductListingPom cannot be resolved to a variable
+Syntax error on token "import", assert expected
+com.myEcom.Pom.SignInPagePom cannot be resolved to a variable
+The nested type IndexPageTest cannot hide an enclosing type
+Illegal modifier for the local class IndexPageTest; only abstract or final is permitted
+
+at com.myEcom.TestCases.IndexPageTest.clickOnEmailButtonTest(IndexPageTest.java:97)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnEmailButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:47:57 IST" name="tearDown" finished-at="2022-09-16T18:48:00 IST" duration-ms="3408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:48:00 IST" name="setUp" finished-at="2022-09-16T18:48:21 IST" duration-ms="20783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnEmailTest()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:48:21 IST" name="clickOnEmailTest" finished-at="2022-09-16T18:48:21 IST" duration-ms="205" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-SULED2E', ip: '192.168.43.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//a[@class='login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56292}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56292/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-SULED2E', ip: '192.168.43.98', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElement {using=xpath, value=//a[@class='login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56292}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56292/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:145)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at com.myEcom.Pom.IndexPagePom.clickOnSignIn(IndexPagePom.java:52)
+at com.myEcom.TestCases.IndexPageTest.clickOnEmailTest(IndexPageTest.java:89)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnEmailTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:48:21 IST" name="tearDown" finished-at="2022-09-16T18:48:22 IST" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:48:22 IST" name="setUp" finished-at="2022-09-16T18:48:39 IST" duration-ms="16841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:48:39 IST" name="test" finished-at="2022-09-16T18:48:39 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:48:39 IST" name="tearDown" finished-at="2022-09-16T18:48:40 IST" duration-ms="919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:48:40 IST" name="setUp" finished-at="2022-09-16T18:49:02 IST" duration-ms="22082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmail()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:49:02 IST" name="testEmail" finished-at="2022-09-16T18:49:02 IST" duration-ms="198" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [http://automationpractice.com/index.php?controller=authentication&back=my-account#account-creation] but found [http://automationpractice.com/index.php]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [http://automationpractice.com/index.php?controller=authentication&back=my-account#account-creation] but found [http://automationpractice.com/index.php]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.myEcom.TestCases.IndexPageTest.testEmail(IndexPageTest.java:236)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:49:02 IST" name="tearDown" finished-at="2022-09-16T18:49:03 IST" duration-ms="1348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:49:03 IST" name="setUp" finished-at="2022-09-16T18:49:26 IST" duration-ms="22327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLogo()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:49:26 IST" name="validateLogo" finished-at="2022-09-16T18:49:27 IST" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:49:27 IST" name="tearDown" finished-at="2022-09-16T18:49:28 IST" duration-ms="1027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:49:28 IST" name="setUp" finished-at="2022-09-16T18:49:50 IST" duration-ms="22614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateSearchBoxClick()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:49:50 IST" name="validateSearchBoxClick" finished-at="2022-09-16T18:49:51 IST" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchBoxClick -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:49:51 IST" name="tearDown" finished-at="2022-09-16T18:49:51 IST" duration-ms="681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:49:51 IST" name="setUp" finished-at="2022-09-16T18:50:09 IST" duration-ms="17655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateSearchBoxText()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:50:09 IST" name="validateSearchBoxText" finished-at="2022-09-16T18:50:29 IST" duration-ms="19697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchBoxText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:50:29 IST" name="tearDown" finished-at="2022-09-16T18:50:30 IST" duration-ms="759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:50:30 IST" name="setUp" finished-at="2022-09-16T18:50:52 IST" duration-ms="22669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateTitle()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:50:52 IST" name="validateTitle" finished-at="2022-09-16T18:50:52 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myEcom.TestCases.IndexPageTest@71809907]" started-at="2022-09-16T18:50:52 IST" name="tearDown" finished-at="2022-09-16T18:50:53 IST" duration-ms="911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myEcom.TestCases.IndexPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

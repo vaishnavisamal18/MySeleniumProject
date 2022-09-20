@@ -12,6 +12,7 @@ public class IndexPagePom extends BaseClass
 	{
 		PageFactory.initElements(driver, this);
 	}
+	
 	@FindBy(xpath= "//img[@class='logo img-responsive']")
 	WebElement logo;
 	

@@ -34,6 +34,8 @@ public class IndexPagePom extends BaseClass
 		if(logo.isDisplayed())
 		{
 			System.out.println("logo displayed");
+			System.out.println("trying git code......");
+			System.out.println("getting in");
 			return true;
 		}
 		else

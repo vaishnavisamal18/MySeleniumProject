@@ -58,6 +58,7 @@ public class IndexPagePom extends BaseClass
 	public String setSearchText()
 	{
 		searchProductbox.sendKeys("t-shirts");
+		System.out.println("in getSearchText,,");
 		return null;
 		
 	}

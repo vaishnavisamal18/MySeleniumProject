@@ -56,8 +56,7 @@ public class SignInPageTest extends BaseClass {
 		
 	//	String url=driver.getCurrentUrl();
 	//	Assert.assertEquals(url,"http://automationpractice.com/index.php?controller=authentication&back=my-account#account-creation");
-		
-		
+		// New comment by pritam to check push pull.
 	}
 	
 	@Test

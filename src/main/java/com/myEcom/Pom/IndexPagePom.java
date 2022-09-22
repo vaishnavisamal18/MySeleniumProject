@@ -35,6 +35,8 @@ public class IndexPagePom extends BaseClass
 		if(logo.isDisplayed())
 		{
 			System.out.println("logo displayed");
+			System.out.println("trying git code......");
+			System.out.println("getting in");
 			return true;
 		}
 		else
@@ -57,6 +59,7 @@ public class IndexPagePom extends BaseClass
 	public String setSearchText()
 	{
 		searchProductbox.sendKeys("t-shirts");
+		System.out.println("in getSearchText,,");
 		return null;
 		
 	}

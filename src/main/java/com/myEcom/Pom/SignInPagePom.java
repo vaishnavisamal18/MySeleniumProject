@@ -51,6 +51,7 @@ public class SignInPagePom extends BaseClass {
 	public void clickOnEmailButton()
 	{
 		createButton.click();	
+		
 	}
 	
 	public void setLoginText(String username,String password)
